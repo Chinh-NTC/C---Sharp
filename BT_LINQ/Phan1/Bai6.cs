@@ -4,6 +4,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+//Tên Nguyễn Tấn Chinh
+// MSV: 2415053122301
 namespace BT_LINQ_Bai6
 {
     internal class Bai6
