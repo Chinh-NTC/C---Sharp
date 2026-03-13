@@ -20,6 +20,11 @@ namespace BT_LINQ_Bai6
                 Console.Write(i + " ");
             }
 
+            var dem_numbers_chan = numbers.Where(n => n % 2 == 0).Count();
+            Console.WriteLine("\nBài 6: ");
+            Console.WriteLine("Trong danh sách có {0} số chẵn.", dem_numbers_chan);
+
+            Console.ReadKey();
         }
     }
 }
