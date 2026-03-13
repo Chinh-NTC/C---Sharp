@@ -4,6 +4,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+//Tên Nguyễn Tấn Chinh
+// MSV: 2415053122301
 namespace BT_LINQ_Bai4
 {
     internal class Bai4
@@ -19,10 +21,10 @@ namespace BT_LINQ_Bai4
                 Console.Write(i + " ");
             }
 
-            var sapXepTangDan = numbers.OrderByDescending(x => x).ToList();
-            Console.WriteLine("\nBài 3:");
+            var sapXepGiamDan = numbers.OrderByDescending(x => x).ToList();
+            Console.WriteLine("\nBài 4:");
             Console.WriteLine("Danh sách giảm dần: ");
-            foreach (var i in sapXepTangDan)
+            foreach (var i in sapXepGiamDan)
             {
                 Console.Write(i + " ");
             }
