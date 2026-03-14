@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 //Tên Nguyễn Tấn Chinh
 // MSV: 2415053122301
+// Lớp: 225LTC01
 namespace BT_LINQ_Bai5
 {
     internal class Bai5
