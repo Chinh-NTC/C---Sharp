@@ -4,6 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+//Tên Nguyễn Tấn Chinh
+// MSV: 2415053122301
+// Lớp: 225LTC01
 namespace BT_LINQ_Bai8
 {
     internal class Bai8
@@ -35,7 +38,7 @@ namespace BT_LINQ_Bai8
                     Console.WriteLine($"ID: {sv.Id} | Tên: {sv.Name} | Điểm: {sv.Score}");
                 }
                 var sinhVienGioi = students.Where(s => s.Score >= 8).ToList();
-
+                Console.WriteLine("\nBài 8: ");
                 Console.WriteLine("\n=== DANH SÁCH SINH VIÊN GIỎI (ĐIỂM >= 8) ===");
                 foreach (var sv in sinhVienGioi)
                 {
