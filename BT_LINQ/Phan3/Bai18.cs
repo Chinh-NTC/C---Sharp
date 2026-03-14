@@ -4,6 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+//Tên Nguyễn Tấn Chinh
+// MSV: 2415053122301
+// Lớp: 225LTC01
 namespace BT_LINQ_Bai18
 {
     internal class Bai18
@@ -33,7 +36,9 @@ namespace BT_LINQ_Bai18
                 Console.WriteLine($"ID: {sv.Id} | Tên: {sv.Name} | Điểm: {sv.Score}");
             }
 
-            var students_groupBy = students.GroupBy(n => { if (n.Score >= 8) return "Giỏi"; else if (n.Score >= 6) return "Khá"; else return "Trung Bình"; });
+            var students_groupBy = students.GroupBy(n => { if (n.Score >= 8) return "Giỏi"; 
+                                                           else if (n.Score >= 6) return "Khá"; 
+                                                           else return "Trung Bình"; });
             Console.WriteLine("\nBài 18: ");
             Console.WriteLine("DANH SÁCH NHÓM SINH VIÊN THEO XẾP LOẠI: ");
             foreach(var nhom in students_groupBy)
