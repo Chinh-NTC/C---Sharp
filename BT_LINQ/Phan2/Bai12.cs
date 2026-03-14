@@ -4,6 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+//Tên Nguyễn Tấn Chinh
+// MSV: 2415053122301
+// Lớp: 225LTC01
 namespace BT_LINQ_Bai12
 {
     internal class Bai12
